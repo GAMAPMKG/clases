@@ -60,6 +60,66 @@ ul li:nth-last-of-type(1){
     color:#fff;
 }
 
-.option:hover{
-
+video{
+    height: 100%;
+    width: 100%;
+    bottom: 0%;
+    position: absolute;
+    left: 0%;
+    z-index: -1;
 }
+
+#home{
+    background-color: #0000008b;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#home h2{
+    color: #fff;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+#home p{
+    color:#fff;
+    font-size: 0.9rem;
+    margin: 1rem 2rem;
+    display: flex;
+   
+}
+
+.papa-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#home a{
+    background: linear-gradient(#3dab9f,#3dab7e);
+    border-radius: 0.25rem;
+    font-size: 1.5rem;
+    padding: 0.85rem;
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+#down{
+    height: 100px;
+}
+
+#down img{
+    width: 50px;
+    height: 50px;
+    /* opacity: 0; */
+    transition: all 0.35s;
+    z-index: 1;
+    padding: 10px;
+    background-color: #3dab9f;
+    border-radius: 100%;
+}
+
+
